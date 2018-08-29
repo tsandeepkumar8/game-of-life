@@ -492,6 +492,27 @@
                         <version>2.1</version>
                     </plugin>
                 </plugins>
+               </build>
+                    <distributionManagement>
+	              <repository>
+  					<id>deployment</id>
+					<name>Internal Release</name>
+					<url>http://http://10.128.0.10:8081/repository/maven-releases/</url>
+			       </repository>
+			       <snapshotRepository>
+				        <id>deployment</id>
+				        <name>Internal Snapshot Releases</name>
+				        <url>http://10.128.0.10:8081/repository/maven-snapshots/</url>
+			       </snapshotRepository>
+	            <distributionManagement>
+             <dependencies>
+	                <dependency>
+				           <groupId>jsvsx.servlet</groupId>
+						   <artifactId>javax.servlet-api</artifactId>
+						   <version>3.0.1</version>
+			        </dependency>
+             </dependencies>
+            </project>
             </reporting>
         </profile>
     </profiles>
