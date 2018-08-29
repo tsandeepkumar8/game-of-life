@@ -507,10 +507,10 @@
 	            <distributionManagement>
              <dependencies>
 	                <dependency>
-				           <groupId>jsvsx.servlet</groupId>
-						   <artifactId>javax.servlet-api</artifactId>
-						   <version>3.0.1</version>
-			        </dependency>
+				<groupId>jsvsx.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<version>3.0.1</version>
+			</dependency>
              </dependencies>
             </project>
             </reporting>
